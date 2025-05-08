@@ -10,9 +10,9 @@ const ContactCard: React.FC<ContactCardProps> = ({ name, email, phone }) => {
   return (
     <div className="contact">
       <h1>My contact</h1>
-      <p><strong>Name:</strong> {name}</p>
-      <p><strong>Email:</strong> {email}</p>
-      {phone && <p><strong>Phone:</strong> {phone}</p>}
+      <p><strong>🅰️ Name:</strong> {name}</p>
+      <p><strong>✉️ Email:</strong> {email}</p>
+      {phone && <p><strong>📞 Phone:</strong> {phone}</p>}
     </div>
   );
 };
