@@ -6,7 +6,7 @@ import ContactCard from './omponents/usercard/UserCard';
 function App() {
   return (
     <div className="App">
-      <ContactCard name="Adeline" email="igiranezaadeline@gmail.com" phone="0780000000" />
+      <ContactCard name="Adeline" email="igiranezaadeline@gmail.com" phone="+250780000000" />
     </div>
   );
 }
