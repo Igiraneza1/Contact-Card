@@ -3,7 +3,7 @@ import type React from "react";
 export interface ContactCardProps {
   name: string;
   email: string;
-  phone?: number; 
+  phone?: string; 
 }
 
 const ContactCard: React.FC<ContactCardProps> = ({ name, email, phone }) => {
